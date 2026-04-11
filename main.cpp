@@ -1,6 +1,12 @@
 #include <iostream>
+using namespace std;
+#include <string>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    string name = "";
+    cout << "Enter name: ";
+    cin >> name;
+
+    cout << name << endl;
     return 0;
 }
