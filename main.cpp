@@ -1,7 +1,9 @@
 #include <iostream>
 
+#include "Bus_HW.h"
 #include "Time.h"
 #include "Schedule_HW.h"
+#include "Bus_HW.h"
 
 int main() {
 
@@ -86,6 +88,15 @@ int main() {
     // cout << a << " : " << a + 5 << " = " << 5 + a << endl;
     // cout << a << " : " << a + 5.0f << " = " << 5.0f + a << endl;
     // cout << a << " : " << a + 5L << " = " << 5L + a << endl;
+
+    //================= [ Tema 23 Taks 2 ] =====================
+
+    Time_ start(6, 30, 0);
+    Time_ end(23, 30, 0);
+
+    Bus_HW bus(start, 70, 20, end);
+
+    bus.generateSchedule();
 
 
 
