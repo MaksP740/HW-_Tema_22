@@ -5,8 +5,8 @@
 
 int main() {
 
-    // Time_ a(17, 20, 43, false);
-    // Time_ b;
+    Time_ a(17, 20, 43, false);
+    Time_ b;
     //
     // a.showTime();
     // b.showTime();
@@ -61,13 +61,33 @@ int main() {
 
     //================= [ Taks 2 ] =====================
 
-    Time_ start(8, 30, 0);
+    // Time_ start(8, 30, 0);
+    //
+    // Schedule lessonTime(start, 45, 10, 20, 3, 6);
+    //
+    // lessonTime.generateSchedule();
+    //
+    // cout << "\nУроки закінченно! Гарного дня!" << endl;
 
-    Schedule lessonTime(start, 45, 10, 20, 3, 6);
+    //================= [ Tema 23 Taks 1 ] =====================
 
-    lessonTime.generateSchedule();
+    // Time_ a1 = --a;
+    // a.showTime();
+    // a1.showTime();
+    //
+    // cout << "====================\n";
+    //
+    // Time_ a2 = a--;
+    // a.showTime();
+    // a2.showTime();
+    //
+    // cout << "====================\n";
+    //
+    // cout << a << " : " << a + 5 << " = " << 5 + a << endl;
+    // cout << a << " : " << a + 5.0f << " = " << 5.0f + a << endl;
+    // cout << a << " : " << a + 5L << " = " << 5L + a << endl;
 
-    cout << "\nУроки закінченно! Гарного дня!" << endl;
+
 
 
 
