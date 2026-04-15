@@ -105,7 +105,7 @@ void Time_::showTime() const {
     {
         cout << (hour < 10 ? "0":"") << hour << ":"
             << (minutes < 10 ? "0" : "") << minutes << ":"
-            << (seconds < 10 ? "0" : "") << seconds << endl;
+            << (seconds < 10 ? "0" : "") << seconds;
     }
     else
     {
